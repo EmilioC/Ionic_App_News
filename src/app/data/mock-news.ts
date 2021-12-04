@@ -5,13 +5,13 @@ export const storedArticlesByCategory = {
             {
                 "source": {
                     "id": null,
-                    "name": "Investor's Business Daily"
+                    "name": "Camen Daily Paper"
                 },
-                "author": "Investor's Business Daily",
+                "author": "Camen Daily Paper",
                 "title": "Dow Jones Futures Dive As Moderna CEO Predicts Less Effective Vaccines For Omicron Variant - Investor's Business Daily",
                 "description": "Dow Jones futures dived 500 points early Tuesday, as the Moderna CEO predicted existing vaccines will be less effective for omicron.",
                 "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-surges-as-biden-rules-out-new-lockdowns-ev-stocks-race-higher/",
-                "urlToImage": "https://www.investors.com/wp-content/uploads/2020/03/stock-coronavirus-07-adobe.jpg",
+                "urlToImage": "https://cdn2.benzinga.com/files/imagecache/og_image_social_share_1200x630/images/story/2012/bharathi-kannan-rfl-thirzds-unsplash_0.jpg?width=720",
                 "publishedAt": "2021-11-30T12:09:00Z",
                 "content": "Dow Jones futures dived more than 500 points early Tuesday before paring losses, as Moderna chief Stephane Bancel predicted existing vaccines will be less effective for the Omicron variant. The stock… [+8985 chars]"
             },
