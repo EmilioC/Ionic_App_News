@@ -45,17 +45,17 @@ export class NewsService {
   }
 
   getTopHeadlinesByCategory( category: string, loadMore: boolean = false ):Observable<Article[]> {
-    return this.getArticlesByCategory( category );
+    return of(this.articlesByCategoryAndPage[category].articles);
 
-    if ( loadMore ) {
-      return this.getArticlesByCategory( category );
-    }
+    // if ( loadMore ) {
+    //   return this.getArticlesByCategory( category );
+    // }
 
-    if ( this.articlesByCategoryAndPage[category] ) {
-      return of(this.articlesByCategoryAndPage[category].articles);
-    }
+    // if ( this.articlesByCategoryAndPage[category] ) {
+    //   return of(this.articlesByCategoryAndPage[category].articles);
+    // }
 
-    return this.getArticlesByCategory( category );
+    // return this.getArticlesByCategory( category );
    
   }
 
